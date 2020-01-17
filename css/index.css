@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.top-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-bar a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar a:hover
+{
+    color: gray;
+}
+
+.top-image
+{
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +172,236 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page*/
+.top-content-about
+{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container
+{
+    margin: 0 2%;
+    margin-bottom: 20px;
+}
+
+.main-content-about
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+.main-content-about div
+{
+    margin-bottom: 45px;
+    border-bottom: 1px dashed black;
+    width: 47.5%;
+}
+
+.main-content-about h2
+{
+    margin-top: 10px;
+}
+
+.main-content-about button
+{
+    background-color: white;
+    font-size: 14px;
+    margin: 15px 0;
+    border-radius: 6px;
+    padding: 6px 22px;
+    border: 2px solid black;
+}
+
+.main-content-about button:hover
+{
+    background-color: lightgray;
+}
+
+.bottom-content-about
+{
+    margin: 0 2%;
+    margin-bottom: 40px;
+}
+/*About page end*/
+
+/*Index page*/
+.middle-content .box:nth-child(1)
+{
+    background: teal;
+}
+
+.middle-content .box:nth-child(2)
+{
+    background: gold;
+}
+
+.middle-content .box:nth-child(3)
+{
+    background: cadetblue;
+}
+
+.middle-content .box:nth-child(4)
+{
+    background: coral;
+}
+
+.middle-content .box:nth-child(5)
+{
+    background: crimson;
+}
+
+.middle-content .box:nth-child(6)
+{
+    background: forestgreen;
+}
+
+.middle-content .box:nth-child(7)
+{
+    background: darkorchid;
+}
+
+.middle-content .box:nth-child(8)
+{
+    background: hotpink;
+}
+
+.middle-content .box:nth-child(9)
+{
+    background: indigo;
+}
+
+.middle-content .box:nth-child(10)
+{
+    background: dodgerblue;
+}
+/*Index page end*/
+
+/*contact page*/
+.contact h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 37px;
+}
+
+.contact p
+{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact a
+{
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+}
+
+.contact
+{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 70%;
+}
+
+.contact form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact input,button
+{
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+}
+
+.first-line,.third-line
+{
+    width: 100%;
+}
+
+.second-line
+{
+    width: 50%;
+}
+
+#first-name
+{
+    padding-left: 2%;
+    padding-right: 10%;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+#last-name
+{
+    padding-left: 2%;
+    padding-right: 17%;
+}
+
+#email
+{
+    padding-left: 4%;
+    padding-right: 123%;
+    margin-left: 6%;
+}
+
+#company
+{
+    padding-left: 4%;
+    padding-right: 123%;
+    margin-left: 6%;
+}
+
+#message
+{
+    padding-left: 4%;
+    padding-right: 123%;
+    padding-bottom: 100px;
+    margin-left: 6%;
+}
+
+#submit
+{
+    background: black;
+    color: white;
+    padding: 10px 5%;
+    margin-left: 3%;
+}
+
+#submit:hover
+{
+    background: gray;
+}
+
+.animation
+{
+    width: 100px;
+    height: 100px;
+    animation:spin 1s infinite;
+    animation-timing-function: linear;
+    margin-bottom: 10%;
+    margin-left: 40%;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
